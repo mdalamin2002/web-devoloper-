@@ -6,6 +6,7 @@
     "wdth" 100;
 }
 
+
 /* nav style */
 nav{
   display: flex;
@@ -81,13 +82,17 @@ nav ul li {
   max-width: 585px;
  }
  .banner-greetings{
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 600;
+ }
+ .banner-para{
+  margin-bottom: 0px;
  }
  .banner-title{
   font-weight: bold;
-  font-size: 85px;
+  font-size: 45px;
   color: #181818;
+  margin-bottom: 20px;
  }
  .banner-description{
   font-size: 18px;
@@ -98,11 +103,12 @@ nav ul li {
  }
  .btn-cv{
   margin:  60px;
-  margin-left: 0px;
+  margin-left: -40px;
   /* margin-right: 80px; */
   display: flex;
   gap: 30px;
   width: 100%;
+  padding: 15px 40px;
  }
 
  /* main */
